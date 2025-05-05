@@ -905,10 +905,10 @@
     =============================================*/
     if ($(".marquee_mode").length) {
         $('.marquee_mode').marquee({
-            speed: 50,
+            speed: 100,
             gap: 0,
             delayBeforeStart: 0,
-            direction: 'right',
+            direction: 'left',
             duplicated: true,
             pauseOnHover: true,
             startVisible: true,

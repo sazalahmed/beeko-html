@@ -1665,6 +1665,6 @@
     -o-transform: rotateY(180deg);
 }
 
-[dir='rtl'] .js-marquee {
-    float: right !important;
+[dir='rtl'] .marquee__area {
+    direction: ltr;
 }
