@@ -23396,7 +23396,7 @@ blockquote cite {
   border: 1px solid #D7D7D7;
   border-radius: 5px;
   height: 50px;
-  text-align: center;
+  text-align: center !important;
   padding: 0 30px;
   font-weight: 500;
   font-size: 16px;
@@ -25002,6 +25002,7 @@ blockquote cite {
   top: 0;
   background-size: cover;
   background-position: center;
+  z-index: -1;
 }
 
 @media (max-width: 1800px) {
@@ -25619,7 +25620,6 @@ blockquote cite {
   font-weight: 400;
   font-size: 16px;
   text-transform: capitalize;
-  border-radius: 0;
   outline: none;
   padding: 12px 37px 9px 20px;
   -webkit-appearance: none;
@@ -25629,6 +25629,11 @@ blockquote cite {
   line-height: 1.2;
   height: 53px;
   cursor: pointer;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 .order__info-wrap {
@@ -27896,6 +27901,15 @@ blockquote cite {
   .quote_page .quote_area {
     padding: 30px;
   }
+}
+
+
+.challenge__content .challenge__list .icon svg {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
 }
 
 /*=============================

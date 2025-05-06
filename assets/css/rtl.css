@@ -1657,7 +1657,9 @@
     text-align: right;
 }
 
-[dir='rtl'] .about__list-item-two li .icon {
+[dir='rtl'] .about__list-item-two li .icon,
+[dir='rtl'] .challenge__content .challenge__list .icon,
+[dir='rtl'] .work__content-three .work__list-wrap .icon {
     transform: rotateY(180deg);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
@@ -1667,4 +1669,49 @@
 
 [dir='rtl'] .marquee__area {
     direction: ltr;
+}
+
+[dir='rtl'] input[type='checkbox'] {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+[dir='rtl'] .cart__table tbody td {
+    text-align: right;
+}
+
+[dir='rtl'] .cart__actions .update__cart-btn {
+    float: left;
+}
+
+[dir='rtl'] .customer__form-wrap .form-grp.select-grp::after {
+    right: auto;
+    left: 20px;
+}
+
+[dir='rtl'] .customer__form-wrap .form-grp select {
+    padding: 12px 20px 9px 37px;
+}
+
+[dir='rtl'] .contact__form .checkbox-grp input {
+    margin-right: 0;
+    margin-left: 9px;
+}
+
+[dir='rtl'] .contact__img {
+    left: auto;
+    right: 0;
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}
+
+[dir='rtl'] .contact__shape {
+    left: auto;
+    right: 40%;
 }
