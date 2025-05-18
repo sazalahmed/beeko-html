@@ -27379,8 +27379,6 @@ blockquote cite {
 
 
 /* photo gallery start */
-.photo_gallery_page {}
-
 .photo_gallery_item,
 .video_gallery_item {
   height: 315px;
@@ -27515,8 +27513,6 @@ blockquote cite {
   height: 16px !important;
 }
 
-.donation_details {}
-
 .donation_details .donate_area {
   margin-top: 50px;
   border: 1px solid var(--tg-border-7);
@@ -27633,8 +27629,6 @@ blockquote cite {
 .donation_details .donate_area .form-check label {
   display: inline;
 }
-
-.donation_details .donate_area button {}
 
 .donation_details .donate_payment_method {
   padding: 0;
